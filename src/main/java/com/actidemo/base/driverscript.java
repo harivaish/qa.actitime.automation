@@ -60,7 +60,7 @@ public class driverscript {
 	}
 	
 	public void quitdriver() {
-		driver.quit();
+		driver.close();
 	}
 
 }
