@@ -25,5 +25,7 @@ public class logoutpage extends driverscript {
 	public void clicklogout() {
 		linklogout.click();
 	}
+	public void getlogoutpagetitle(){
+		return driver.gettitle();
 
 }
